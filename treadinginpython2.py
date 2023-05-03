@@ -13,31 +13,31 @@ import time
 
 
 def print_cube(num):
-    time.sleep(10)
+    time.sleep(5)
     print("cube: {}".format(num * num * num))
 
 
 def print_square(num):
-    time.sleep(10)
+    time.sleep(5)
     print("square: {}".format(num * num))
 
 
 def print_square2(num):
-    time.sleep(10)
+    time.sleep(5)
     print("square: {}".format(num * num))
 
 
 def print_square3(num):
-    time.sleep(10)
+    time.sleep(5)
     print("square: {}".format(num * num))
 
 
 if __name__ == "__main__":
     # creating thread
-    t1 = threading.Thread(target=print_square, args=(1000,))
-    t2 = threading.Thread(target=print_cube, args=(1000,))
-    t3 = threading.Thread(target=print_square2, args=(1000,))
-    t4 = threading.Thread(target=print_square3, args=(1000,))
+    t1 = threading.Thread(target=print_square, args=(2000,))
+    t2 = threading.Thread(target=print_cube, args=(2000,))
+    t3 = threading.Thread(target=print_square2, args=(2000,))
+    t4 = threading.Thread(target=print_square3, args=(2000,))
 
     # starting thread 1
     t1.start()
