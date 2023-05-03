@@ -2,7 +2,7 @@ import numpy as np
 import time
 
 # Generate a large array of random numbers
-arr = np.random.rand(2000, 2000)
+arr = np.random.rand(15000, 15000)
 
 # Perform a matrix multiplication using NumPy
 start_time = time.time()
