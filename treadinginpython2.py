@@ -9,7 +9,7 @@ Created on Fri Jun 19 23:44:58 2020
 # of threading
 # importing the threading module
 
-
+import threading
 
 def print_cube(num):
     time.sleep(5)
