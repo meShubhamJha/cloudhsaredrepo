@@ -8,8 +8,7 @@ Created on Fri Jun 19 23:44:58 2020
 # Python program to illustrate the concept
 # of threading
 # importing the threading module
-import threading
-import time
+
 
 
 def print_cube(num):
